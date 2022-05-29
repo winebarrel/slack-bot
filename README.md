@@ -26,7 +26,7 @@ Slack Bot using [Bolt](https://slack.dev/bolt-js/concepts).
 
 ![](https://user-images.githubusercontent.com/117768/170860445-03388b28-a8f0-4329-9045-a696b379db01.png)
 
-#### OAuth Token
+#### Bot Token (OAuth Token)
 
 ![](https://user-images.githubusercontent.com/117768/170860473-a2d4a398-2db6-44e5-b3b5-a088997f03c9.png)
 
