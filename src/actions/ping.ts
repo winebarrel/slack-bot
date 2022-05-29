@@ -5,10 +5,10 @@ class Ping implements Action {
   name = "ping";
   help = "Return PONG to PING";
 
-  async call(_m: RegExpMatchArray, { body, say }: Message) {
+  async call(_m: RegExpMatchArray, { event, say }: Message) {
     say({
-      text: `<@${body.event.user}> pong`,
-      thread_ts: body.event.thread_ts,
+      text: `<@${event.user}> pong`,
+      thread_ts: event.thread_ts,
     });
   }
 }
